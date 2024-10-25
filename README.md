@@ -45,7 +45,7 @@ Quais são os padrões demográficos dos vencedores do Oscar ao longo dos anos?
 
 - Identificar **tendências** na diversidade étnica entre vencedores em diferentes décadas.
 - Verificar se há **mudanças na idade** dos premiados ao longo dos anos.
-- Analisar a **distribuição de orientação sexual e religião** entre os vencedores.
+- Analisar a **evolução da diversidade Étnica ao longo do tempo** entre os vencedores.
 
 ---
 
