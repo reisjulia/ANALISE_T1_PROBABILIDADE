@@ -1,4 +1,11 @@
+![vassouras](image/Horizontal.png)
+
 # Análise Exploratória de Dados: Demografia dos Vencedores do Oscar ao longo dos anos 
+
+Grupo: 
+Brenno Viana Coelho - 202022642
+Julia Reis Rodrigues - 202212049
+João Pedro de Abreu - 202210964
 
 ## Compreensão do Problema e dos Dados 📋 
 
@@ -54,12 +61,14 @@ Quais são os padrões demográficos dos vencedores do Oscar ao longo dos anos?
 
 As análises incluirão gráficos e tabelas para facilitar a compreensão dos dados. A seguir estão alguns exemplos de visualizações planejadas:
 
-- **Gráficos de barras**: Para observar tendências ao longo das décadas.
+- **Gráficos de barras**: Distribuição de Vencedores por Ano (Agrupado por Década).
 ![Gráfico 1](image/graficobrarras.png)
 
-- **Gráficos de velas**: Para comparar etnias e categorias.
-- **Gráfico de linhas**: Para verificar a evolução das etinias dos vencedores ao longo do tempo. 
+- **Gráficos de velas**: Idade dos Vencedores por Categoria.
+![Gráfico 2](image/graficovelas.png)
 
+- **Gráfico de linhas**: Para verificar a evolução da diversidade Étnica ao longo do tempo. 
+![Gráfico 3](image/graficolinhas.png)
 ---
 
 Feito com ❤️ e Python 🐍
