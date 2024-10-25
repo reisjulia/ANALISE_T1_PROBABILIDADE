@@ -63,7 +63,7 @@ As análises incluirão gráficos e tabelas para facilitar a compreensão dos da
 
 - **Gráficos de Linhas**: Para observar tendências ao longo das décadas.
 - **Gráficos de Barras**: Para comparar etnias e categorias.
-- **Gráficos de Pizza**: Para verificar a distribuição de religião e orientação sexual.
+- **Gráfico de linhas**: Para verificar a evolução das etinias dos vencedores ao longo do tempo. 
 
 ---
 
