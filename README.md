@@ -62,12 +62,15 @@ Quais são os padrões demográficos dos vencedores do Oscar ao longo dos anos?
 As análises incluirão gráficos e tabelas para facilitar a compreensão dos dados. A seguir estão alguns exemplos de visualizações planejadas:
 
 - **Gráficos de barras**: Distribuição de Vencedores por Ano (Agrupado por Década).
+
 ![Gráfico 1](image/graficobrarras.png)
 
 - **Gráficos de velas**: Idade dos Vencedores por Categoria.
+
 ![Gráfico 2](image/graficovelas.png)
 
 - **Gráfico de linhas**: Para verificar a evolução da diversidade Étnica ao longo do tempo. 
+
 ![Gráfico 3](image/graficolinhas.png)
 ---
 
