@@ -55,22 +55,20 @@ plt.title('Distribuição da Idade dos Vencedores por Categoria')
 plt.tight_layout()
 plt.show()
 
-# Gráfico 3: Evolução da Diversidade Étnica ao Longo do Tempo
+# Gráfico 3: Evolução da Diversidade Étnica ao Longo do Tempo (Quantidade)
 ethnicity_over_time = df.groupby(['year_edition', 'race_ethnicity']).size().reset_index(name='count')
-total_per_year = df.groupby('year_edition').size().reset_index(name='total')
-ethnicity_over_time = pd.merge(ethnicity_over_time, total_per_year, on='year_edition')
-ethnicity_over_time['proportion'] = ethnicity_over_time['count'] / ethnicity_over_time['total']
 
 plt.figure(figsize=(14, 8))
 ethnicities = ethnicity_over_time['race_ethnicity'].unique()
 palette = sns.color_palette('husl', n_colors=len(ethnicities))
 
+# Plotando a quantidade de vencedores por raça/etnia ao longo do tempo
 for ethnicity, color in zip(ethnicities, palette):
     subset = ethnicity_over_time[ethnicity_over_time['race_ethnicity'] == ethnicity]
-    sns.lineplot(x='year_edition', y='proportion', data=subset, label=ethnicity, color=color)
+    sns.lineplot(x='year_edition', y='count', data=subset, label=ethnicity, color=color)
 
 plt.xlabel('Ano da Edição')
-plt.ylabel('Proporção de Vencedores')
+plt.ylabel('Quantidade de Vencedores')
 plt.title('Evolução da Diversidade Étnica dos Vencedores ao Longo do Tempo')
 plt.legend(title='Raça/Etnia', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
