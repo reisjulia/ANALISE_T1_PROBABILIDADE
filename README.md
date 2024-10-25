@@ -1,25 +1,19 @@
-# 🏆 Análise Exploratória de Dados: Demografia dos Vencedores do Oscar
+# Análise Exploratória de Dados: Demografia dos Vencedores do Oscar ao longo dos anos 
 
-## 📋 Compreensão do Problema e dos Dados
+## Compreensão do Problema e dos Dados 📋 
 
-Esta análise investiga **padrões demográficos** entre os vencedores do Oscar ao longo dos anos. O objetivo é identificar como variáveis como **ano de nascimento, etnia, religião** e **orientação sexual** influenciam ou refletem nos resultados das premiações.
+Esta análise investiga **padrões demográficos** entre os vencedores do Oscar ao longo dos anos. O objetivo é identificar como variáveis como **ano de nascimento e etnia,** e  refletiram nos resultados das premiações ao longo das ediçoēs.
 
 ---
 
-## 🔍 Exploração Detalhada dos Dados
+## Exploração Detalhada dos Dados 🔍 
 
 O conjunto de dados contém as seguintes informações sobre os vencedores:
 
-- **`name`**: Nome do vencedor  
 - **`birth_year`**: Ano de nascimento  
-- **`birth_date`**: Data de nascimento completa  
-- **`birthplace`**: Local de nascimento  
 - **`race_ethnicity`**: Etnia  
-- **`religion`**: Religião  
-- **`sexual_orientation`**: Orientação sexual  
 - **`year_edition`**: Ano da edição do Oscar  
 - **`category`**: Categoria do prêmio  
-- **`movie`**: Filme pelo qual o prêmio foi recebido  
 
 ---
 
@@ -33,11 +27,10 @@ Quais são os padrões demográficos dos vencedores do Oscar ao longo dos anos?
 1. **Diversidade Étnica:**  
    Há mudanças na diversidade étnica dos vencedores ao longo das décadas?
 
+
 2. **Idade nas Categorias:**  
    Existe alguma tendência relacionada à idade dos vencedores nas diferentes categorias?
 
-3. **Religião e Orientação Sexual:**  
-   Como a orientação sexual e a religião dos vencedores estão distribuídas?
 
 ---
 
@@ -57,12 +50,14 @@ Quais são os padrões demográficos dos vencedores do Oscar ao longo dos anos?
 
 ---
 
-## 📊 Visualizações
+## 📊 VisualizaçõesGráficos
 
 As análises incluirão gráficos e tabelas para facilitar a compreensão dos dados. A seguir estão alguns exemplos de visualizações planejadas:
 
-- **Gráficos de Linhas**: Para observar tendências ao longo das décadas.
-- **Gráficos de Barras**: Para comparar etnias e categorias.
+- **Gráficos de barras**: Para observar tendências ao longo das décadas.
+![Gráfico 1](image/graficobrarras.png)
+
+- **Gráficos de velas**: Para comparar etnias e categorias.
 - **Gráfico de linhas**: Para verificar a evolução das etinias dos vencedores ao longo do tempo. 
 
 ---
