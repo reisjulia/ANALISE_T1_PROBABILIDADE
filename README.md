@@ -57,7 +57,7 @@ Quais são os padrões demográficos dos vencedores do Oscar ao longo dos anos?
 
 ---
 
-## 📊 VisualizaçõesGráficos
+## 📊 Visualizaçāo - Gráficos
 
 As análises incluirão gráficos e tabelas para facilitar a compreensão dos dados. A seguir estão alguns exemplos de visualizações planejadas:
 
