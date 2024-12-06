@@ -53,27 +53,27 @@ A base de dados contém informações sobre os vencedores do Oscar, incluindo:
   
 1. **Distribuição de Vencedores por Década**:
   - Gráfico de barras mostrando a evolução do número de vencedores ao longo das décadas.
-  ![Gráfico 1](image/grafico1.png)
+  ![Gráfico 1](image/grafico1.jepg)
 
 2. **Idade dos Vencedores por Categoria**:
   - Gráfico de boxplot que visualiza a distribuição da idade dos vencedores em cada categoria.
-  ![Gráfico 2](image/grafico2.png)
+  ![Gráfico 2](image/grafico2.jepg)
 
 3. **Evolução da Diversidade Étnica**:
   - Linha do tempo representando a diversidade étnica ao longo das edições do Oscar.
-    ![Gráfico 3](image/grafico3.png)
+    ![Gráfico 3](image/grafico3.jepg)
 
 4. **Distribuição de Religiões entre os Vencedores**:
   - Gráfico de barras mostrando as proporções de religiões entre os vencedores.
-    ![Gráfico 4](image/grafico4.png)
+    ![Gráfico 4](image/grafico4.jepg)
 
 5. **Distribuição de Orientações Sexuais**:
   - Gráfico de barras para proporções de diferentes orientações sexuais entre os vencedores.
-    ![Gráfico 5](image/grafico5.png)
+    ![Gráfico 5](image/grafico5.jepg)
 
 6. **Correlação entre Ano de Edição e Idade**:
   - Gráfico de dispersão mostrando a relação entre o ano da premiação e a idade dos vencedores.
-    ![Gráfico 6](image/grafico6.png)
+    ![Gráfico 6](image/grafico6.jepg)
 
 
 ## Respostas às Perguntas de Pesquisa 🧐
