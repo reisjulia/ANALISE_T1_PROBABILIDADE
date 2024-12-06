@@ -7,19 +7,13 @@ sns.set_theme(style='whitegrid', context='talk')
 
 df = pd.read_csv('world_ampas_oscar_winner_demographics.csv')
 
-# Informações iniciais do dataset
-print(df.info())
-print(df.head())
-
 # Sendo feito o tratamento de valores ausentes
 df['religion'] = df['religion'].fillna('Desconhecido')
 df['sexual_orientation'] = df['sexual_orientation'].fillna('Desconhecido')
 df['birth_year'] = df['birth_year'].fillna(df['birth_year'].median())  
 
-# Criação de coluna para idade no momento do prêmio
 df['age_at_award'] = df['year_edition'] - df['birth_year']
 
-# Encoding para variáveis categóricas
 le = LabelEncoder()
 df['race_ethnicity_encoded'] = le.fit_transform(df['race_ethnicity'].astype(str))
 df['religion_encoded'] = le.fit_transform(df['religion'].astype(str))
@@ -29,7 +23,6 @@ df['sexual_orientation_encoded'] = le.fit_transform(df['sexual_orientation'].ast
 print(df[['age_at_award', 'birth_year', 'year_edition']].describe())
 print(df.isnull().sum())  # fazendo a verificação de valores ausentes
 
-# Criar coluna para décadas
 df['decade'] = (df['year_edition'] // 10) * 10
 
 # Gráfico 1: Distribuição de vencedores por década
