@@ -2,7 +2,7 @@
 
 # Projeto de Análise de Dados - Explorando os Vencedores do Oscar 🎥
 
-Este repositório contém uma análise detalhada e visualizações sobre padrões demográficos dos vencedores do Oscar ao longo de diferentes décadas, com foco em idade, etnia, religião, orientação sexual e categorias premiadas.
+O repositório contém uma análise detalhada e visualizações sobre padrões demográficos dos vencedores do Oscar ao longo de diferentes décadas, com foco em idade, etnia, religião, orientação sexual e categorias premiadas.
 
 ## Equipe Responsável 👩‍💻👨‍💻
 - Brenno Viana Coelho - 202022642
@@ -51,26 +51,30 @@ A base de dados contém informações sobre os vencedores do Oscar, incluindo:
   - Encoding das variáveis categóricas para facilitar análises estatísticas.
   - Criação da coluna `decade` para análises temporais.
   
-- **Distribuição de Vencedores por Década**:
+1. **Distribuição de Vencedores por Década**:
   - Gráfico de barras mostrando a evolução do número de vencedores ao longo das décadas.
+  ![Gráfico 1](image/grafico1.png)
 
-- **Idade dos Vencedores por Categoria**:
+2. **Idade dos Vencedores por Categoria**:
   - Gráfico de boxplot que visualiza a distribuição da idade dos vencedores em cada categoria.
+  ![Gráfico 2](image/grafico2.png)
 
-- **Evolução da Diversidade Étnica**:
+3. **Evolução da Diversidade Étnica**:
   - Linha do tempo representando a diversidade étnica ao longo das edições do Oscar.
+    ![Gráfico 3](image/grafico3.png)
 
-- **Distribuição de Religiões entre os Vencedores**:
+4. **Distribuição de Religiões entre os Vencedores**:
   - Gráfico de barras mostrando as proporções de religiões entre os vencedores.
+    ![Gráfico 4](image/grafico4.png)
 
-- **Distribuição de Orientações Sexuais**:
+5. **Distribuição de Orientações Sexuais**:
   - Gráfico de barras para proporções de diferentes orientações sexuais entre os vencedores.
+    ![Gráfico 5](image/grafico5.png)
 
-- **Correlação entre Ano de Edição e Idade**:
+6. **Correlação entre Ano de Edição e Idade**:
   - Gráfico de dispersão mostrando a relação entre o ano da premiação e a idade dos vencedores.
+    ![Gráfico 6](image/grafico6.png)
 
-- **Distribuição de Gênero entre os Vencedores**:
-  - Gráfico de barras ilustrando a proporção de gêneros entre os vencedores.
 
 ## Respostas às Perguntas de Pesquisa 🧐
 
@@ -91,7 +95,7 @@ A base de dados contém informações sobre os vencedores do Oscar, incluindo:
   A diversidade étnica apresentou crescimento ao longo das décadas, com categorias técnicas sendo mais diversas em comparação às categorias principais, como Melhor Ator/Atriz.
 
 - **Idade dos Vencedores**:
-  As categorias técnicas tendem a premiar vencedores mais jovens, enquanto categorias principais apresentam vencedores de faixas etárias mais avançadas.
+  As categorias técnicas, de acordo com os dados apresentados nos gráficos, geralmente  premiam vencedores mais jovens, enquanto categorias principais apresentam vencedores de faixas etárias mais avançadas.
 
 - **Religião e Orientação Sexual**:
   Muitas informações ainda são desconhecidas, refletindo uma falta de representatividade histórica nesses dados.
@@ -102,8 +106,6 @@ A base de dados contém informações sobre os vencedores do Oscar, incluindo:
 - **Categorias Técnicas x Principais**:
   As categorias técnicas exibem maior diversidade em termos de etnia e idade, enquanto as categorias principais permanecem mais homogêneas.
 
-
-![Gráfico 3](image/graficolinhas.png)
 ---
 
 Feito com ❤️ e Python 🐍
