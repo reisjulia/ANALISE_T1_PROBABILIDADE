@@ -7,7 +7,7 @@ sns.set_theme(style='whitegrid', context='talk')
 
 df = pd.read_csv('world_ampas_oscar_winner_demographics.csv')
 
-# Sendo feito o tratamento de valores ausentes
+# Fazendo o tratamento de valores ausentes
 df['religion'] = df['religion'].fillna('Desconhecido')
 df['sexual_orientation'] = df['sexual_orientation'].fillna('Desconhecido')
 df['birth_year'] = df['birth_year'].fillna(df['birth_year'].median())  
@@ -19,7 +19,7 @@ df['race_ethnicity_encoded'] = le.fit_transform(df['race_ethnicity'].astype(str)
 df['religion_encoded'] = le.fit_transform(df['religion'].astype(str))
 df['sexual_orientation_encoded'] = le.fit_transform(df['sexual_orientation'].astype(str))
 
-# Sendo feita as estatísticas descritivas  Mínimo, máximo, média, mediana e desvio padrão)
+# Sendo feita as estatísticas descritivas do mínimo, máximo, média, mediana)
 print(df[['age_at_award', 'birth_year', 'year_edition']].describe())
 print(df.isnull().sum())  # Verificando valores ausentes
 
@@ -31,8 +31,8 @@ median_winners = winners_per_decade['winners'].median()
 
 plt.figure(figsize=(12, 6))
 sns.barplot(x='decade', y='winners', data=winners_per_decade, palette='viridis')
-plt.axhline(y=mean_winners, color='r', linestyle='--', label='Média')  # Linha da média
-plt.axhline(y=median_winners, color='g', linestyle='-.', label='Mediana')  # Linha da mediana
+plt.axhline(y=mean_winners, color='r', linestyle='--', label='Média')  
+plt.axhline(y=median_winners, color='g', linestyle='-.', label='Mediana')  
 plt.xlabel('Década')
 plt.ylabel('Número de Vencedores')
 plt.title('Número de Vencedores por Década')
@@ -45,7 +45,6 @@ plt.figure(figsize=(14, 8))
 order = df.groupby('category')['age_at_award'].median().sort_values().index
 sns.boxplot(x='age_at_award', y='category', data=df, order=order, palette='Set2')
 
-# Sendo feita Média e mediana 
 mean_age = df['age_at_award'].mean()
 median_age = df['age_at_award'].median()
 plt.axvline(x=mean_age, color='r', linestyle='--', label='Média')  
@@ -108,7 +107,6 @@ plt.show()
 plt.figure(figsize=(12, 6))
 sns.scatterplot(x='year_edition', y='age_at_award', data=df, alpha=0.7, color='purple')
 
-# Média
 mean_age_correlation = df['age_at_award'].mean()
 plt.axhline(y=mean_age_correlation, color='r', linestyle='--', label='Média')  
 
