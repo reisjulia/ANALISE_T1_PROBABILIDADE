@@ -24,7 +24,7 @@ Investigar padrões demográficos entre os vencedores do Oscar, identificando co
 - `data/`: Contém o arquivo de dados utilizado na análise (`world_ampas_oscar_winner_demographics.csv`).
 - `notebooks/`: Jupyter Notebook com o código completo para a análise exploratória.
 - `images/`: Gráficos gerados durante a análise.
-- `README.md`: Este documento explicativo.
+- `README.md`: Documento explicando sobre a análise e o que acontece no código.
 
 ## Descrição da Base de Dados 📋
 A base de dados contém informações sobre os vencedores do Oscar, incluindo:
@@ -53,7 +53,7 @@ A base de dados contém informações sobre os vencedores do Oscar, incluindo:
   
 1. **Distribuição de Vencedores por Década**:
   - Gráfico de barras mostrando a evolução do número de vencedores ao longo das décadas.
-  ![Gráfico 1](image/grafico1.jepg)
+  ![Gráfico 1](image/grafico1.png)
 
 2. **Idade dos Vencedores por Categoria**:
   - Gráfico de boxplot que visualiza a distribuição da idade dos vencedores em cada categoria.
@@ -66,6 +66,8 @@ A base de dados contém informações sobre os vencedores do Oscar, incluindo:
 4. **Distribuição de Religiões entre os Vencedores**:
   - Gráfico de barras mostrando as proporções de religiões entre os vencedores.
     ![Gráfico 4](image/grafico4.jepg)
+
+
 
 5. **Distribuição de Orientações Sexuais**:
   - Gráfico de barras para proporções de diferentes orientações sexuais entre os vencedores.
